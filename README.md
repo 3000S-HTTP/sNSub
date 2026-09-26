@@ -1,4 +1,4 @@
-# sNSub — Free V2Ray Subscription Builder
+﻿# sNSub — Free V2Ray Subscription Builder
 
 An **auto-updating V2Ray/Xray subscription** built from public free-config
 repositories. A scheduled GitHub Action fetches every source, merges and
@@ -10,33 +10,37 @@ Based on the approach used by
 aggregating nodes from:
 
 - [patterniha/Free-Configs](https://github.com/patterniha/Free-Configs)
-- [barry-far/V2ray-Config](https://github.com/barry-far/v2ray-config)
+- [barry-far/v2ray-config](https://github.com/barry-far/v2ray-config)
 - [ebrasha/free-v2ray-public-list](https://github.com/ebrasha/free-v2ray-public-list)
 
 …plus several other well-known public lists (see [`sources.txt`](sources.txt)).
 
 ## Subscription URLs
 
-Replace `<USER>` and `<REPO>` with your GitHub account and repository name
-(or just use the raw URLs shown after you push). The list refreshes every
-6 hours.
+The list refreshes every 6 hours via GitHub Actions.
 
 | Purpose | URL |
 | --- | --- |
-| **All nodes (base64)** — use this in your client | `https://raw.githubusercontent.com/<USER>/<REPO>/main/output/configs_base64.txt` |
-| All nodes (plain text) | `https://raw.githubusercontent.com/<USER>/<REPO>/main/output/configs.txt` |
-| VLESS + VMess only (base64) | `https://raw.githubusercontent.com/<USER>/<REPO>/main/output/configs_vless_vmess_base64.txt` |
-| VLESS | `https://raw.githubusercontent.com/<USER>/<REPO>/main/output/vless_base64.txt` |
-| VMess | `https://raw.githubusercontent.com/<USER>/<REPO>/main/output/vmess_base64.txt` |
-| Trojan | `https://raw.githubusercontent.com/<USER>/<REPO>/main/output/trojan_base64.txt` |
-| Shadowsocks | `https://raw.githubusercontent.com/<USER>/<REPO>/main/output/ss_base64.txt` |
-| SSR | `https://raw.githubusercontent.com/<USER>/<REPO>/main/output/ssr_base64.txt` |
-| Hysteria2 | `https://raw.githubusercontent.com/<USER>/<REPO>/main/output/hysteria2_base64.txt` |
+| **All nodes (base64)** — use this in your client | `https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/configs_base64.txt` |
+| All nodes (plain text) | `https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/configs.txt` |
+| VLESS + VMess only (base64) | `https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/configs_vless_vmess_base64.txt` |
+| VLESS | `https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/vless_base64.txt` |
+| VMess | `https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/vmess_base64.txt` |
+| Trojan | `https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/trojan_base64.txt` |
+| Shadowsocks | `https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/ss_base64.txt` |
+| SSR | `https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/ssr_base64.txt` |
+| Hysteria2 | `https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/hysteria2_base64.txt` |
+
+**Main subscription (copy this into your client):**
+
+```
+https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/configs_base64.txt
+```
 
 **CDN mirror (faster, cached):**
 
 ```
-https://cdn.jsdelivr.net/gh/<USER>/<REPO>@main/output/configs_base64.txt
+https://cdn.jsdelivr.net/gh/3000S-HTTP/sNSub@main/output/configs_base64.txt
 ```
 
 ## Use in a client
@@ -50,15 +54,15 @@ https://cdn.jsdelivr.net/gh/<USER>/<REPO>@main/output/configs_base64.txt
 
 ```
                 sources.txt
-                    │   (one URL per line, editable — no code change)
-                    ▼
-   .github/workflows/build.yml  ──►  scripts/build.py  ──►  output/*.txt
-        (every 6h / on push)              │
-                                          ├─ fetch all sources in parallel
-                                          ├─ auto-detect plain vs base64
-                                          ├─ merge + de-duplicate
-                                          ├─ group by protocol
-                                          └─ write plain + base64 subs
+                    |   (one URL per line, editable -- no code change)
+                    v
+   .github/workflows/build.yml  -->  scripts/build.py  -->  output/*.txt
+        (every 6h / on push)              |
+                                          |- fetch all sources in parallel
+                                          |- auto-detect plain vs base64
+                                          |- merge + de-duplicate
+                                          |- group by protocol
+                                          \- write plain + base64 subs
 ```
 
 - `sources.txt` — the list of upstream lists. Add / remove / comment with `#`.
