@@ -6,3 +6,4 @@ venv/
 .vscode/
 *.log
 summary_test.json
+.cache/

@@ -147,31 +147,39 @@ def load_sources(path: str) -> list[str]:
 # Build
 # --------------------------------------------------------------------------- #
 def collect(urls: list[str], workers: int = 12) -> tuple[dict[str, str], list[str]]:
-    """Fetch all sources concurrently. Returns (unique key->config, source stats)."""
-    unique: dict[str, str] = {}
-    stats: list[str] = []
-    raw_count = 0
+    """Fetch all sources concurrently. Returns (unique key->config, source stats).
+
+    The returned dict preserves *source order*: nodes from earlier lines in
+    sources.txt come first. This matters because scripts/tester.py tests only
+    the leading slice, so trusted / already-verified sources should be listed
+    first. Within a source the original order is preserved too.
+    """
+    fetched: dict[str, str | None] = {}
 
     with ThreadPoolExecutor(max_workers=max(1, min(workers, len(urls) or 1))) as pool:
         futures = {pool.submit(http_get, url): url for url in urls}
         for future in as_completed(futures):
             url = futures[future]
-            text = future.result()
-            if text is None:
-                stats.append(f"[DEAD] {url}")
+            fetched[url] = future.result()
+
+    unique: dict[str, str] = {}
+    stats: list[str] = []
+    for url in urls:  # deterministic, source-priority order
+        text = fetched.get(url)
+        if text is None:
+            stats.append(f"[DEAD] {url}")
+            continue
+        found = extract_configs(text)
+        kept = 0
+        for config in found:
+            proto = protocol_of(config)
+            if proto not in PROTOCOLS:
                 continue
-            found = extract_configs(text)
-            kept = 0
-            for config in found:
-                proto = protocol_of(config)
-                if proto not in PROTOCOLS:
-                    continue
-                key = dedupe_key(config)
-                if key and key not in unique:
-                    unique[key] = config
-                    kept += 1
-            raw_count += len(found)
-            stats.append(f"[ OK ] {url} -> {len(found)} found, {kept} new")
+            key = dedupe_key(config)
+            if key and key not in unique:
+                unique[key] = config
+                kept += 1
+        stats.append(f"[ OK ] {url} -> {len(found)} found, {kept} new")
 
     return unique, stats
 

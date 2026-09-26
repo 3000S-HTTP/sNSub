@@ -30,8 +30,19 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Cache xray-core
+        uses: actions/cache@v4
+        with:
+          path: .cache/xray
+          key: xray-core-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: |
+            xray-core-${{ runner.os }}-
+
       - name: Build subscription files
         run: python scripts/build.py
+
+      - name: Select the best working nodes (live proxy test)
+        run: python scripts/tester.py --best 59 --limit 800 --workers 40 --timeout 6
 
       - name: Commit and push if changed
         run: |
