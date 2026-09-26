@@ -1,0 +1,42 @@
+# =============================================================================
+#  sources.txt  --  where the node lists come from. One URL per line.
+# =============================================================================
+#
+#  * To ADD a source    : append a new line with the URL.
+#  * To DISABLE a source: put a '#' in front of it (or delete the line).
+#  * The format is auto-detected: plain text lists AND base64 subscription
+#    bodies both work, so most public "sub" links can be dropped in as-is.
+#  * Every source is optional. If one is unreachable the build continues and
+#    simply reports it as [DEAD]; it only fails if *all* sources are dead.
+#  * Nodes from every source are merged, de-duplicated, grouped by protocol
+#    and re-encoded. Adding a low quality source cannot crash the build.
+#
+#  Commit your edit and the scheduled GitHub Action picks it up on the next
+#  run -- no code change needed.
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+#  1) The three repos this project was based on
+# -----------------------------------------------------------------------------
+# patterniha/Free-Configs
+https://raw.githubusercontent.com/patterniha/Free-Configs/main/configs.txt
+# barry-far/V2ray-Config
+https://raw.githubusercontent.com/barry-far/V2ray-Config/main/All_Configs_Sub.txt
+https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/vless.txt
+https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/vmess.txt
+https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/trojan.txt
+https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Splitted-By-Protocol/ss.txt
+# ebrasha/free-v2ray-public-list
+https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/V2Ray-Config-By-EbraSha-All-Type.txt
+
+# -----------------------------------------------------------------------------
+#  2) Additional well-known public lists (optional; comment out to disable)
+# -----------------------------------------------------------------------------
+https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt
+https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt
+https://raw.githubusercontent.com/Leon406/SubCrawler/main/sub/share/vless
+https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
+https://raw.githubusercontent.com/freefq/free/master/v2
+https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub
+https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/xray/mix
+https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/verified/configs.txt

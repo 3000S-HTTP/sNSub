@@ -1,0 +1,17 @@
+{
+  "updated": "2026-09-26 21:31:27 UTC",
+  "total_unique": 48369,
+  "sources_total": 15,
+  "sources_ok": 15,
+  "files": {
+    "configs.txt": 48369,
+    "configs_vless_vmess.txt": 36659,
+    "vless.txt": 31723,
+    "vmess.txt": 4936,
+    "trojan.txt": 4741,
+    "ss.txt": 6783,
+    "ssr.txt": 33,
+    "hysteria2.txt": 152,
+    "tuic.txt": 1
+  }
+}
