@@ -51,7 +51,20 @@ jobs:
           git add output
           if git diff --cached --quiet; then
             echo "No changes to commit."
-          else
-            git commit -m "chore: update subscriptions [skip ci]"
-            git push
+            exit 0
           fi
+          git commit -m "chore: update subscriptions [skip ci]"
+          # Retry: another push may have landed while we were testing.
+          for i in 1 2 3 4 5; do
+            if git pull --rebase origin main; then
+              if git push; then echo "pushed"; exit 0; fi
+            else
+              # Keep this run's freshly generated output on conflict.
+              git checkout --theirs -- output || true
+              git add output || true
+              GIT_EDITOR=true git rebase --continue || git rebase --abort
+            fi
+            sleep 5
+          done
+          echo "push failed after retries" >&2
+          exit 1
