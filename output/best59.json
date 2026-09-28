@@ -1,302 +1,302 @@
 {
   "tested": 800,
-  "passed": 308,
+  "passed": 281,
   "selected": 59,
   "nodes": [
     {
-      "latency_ms": 26.6,
-      "address": "199.60.101.122",
-      "port": 11626
-    },
-    {
-      "latency_ms": 45.3,
-      "address": "156.146.38.167",
-      "port": 443
-    },
-    {
-      "latency_ms": 49.8,
-      "address": "156.146.38.168",
-      "port": 443
-    },
-    {
-      "latency_ms": 51.3,
-      "address": "156.146.38.167",
-      "port": 443
-    },
-    {
-      "latency_ms": 54.4,
-      "address": "156.146.38.170",
-      "port": 443
-    },
-    {
-      "latency_ms": 54.7,
-      "address": "15.204.233.41",
-      "port": 8882
-    },
-    {
-      "latency_ms": 55.0,
-      "address": "156.146.38.169",
-      "port": 443
-    },
-    {
-      "latency_ms": 58.7,
-      "address": "66.163.113.176",
-      "port": 22324
-    },
-    {
-      "latency_ms": 63.0,
-      "address": "156.146.38.169",
-      "port": 443
-    },
-    {
-      "latency_ms": 64.3,
-      "address": "140.82.63.79",
-      "port": 8388
-    },
-    {
-      "latency_ms": 67.3,
-      "address": "37.19.198.244",
-      "port": 443
-    },
-    {
-      "latency_ms": 68.3,
-      "address": "15.235.75.71",
-      "port": 8388
-    },
-    {
-      "latency_ms": 68.6,
-      "address": "51.222.107.43",
-      "port": 2083
-    },
-    {
-      "latency_ms": 69.4,
-      "address": "37.19.198.236",
-      "port": 443
-    },
-    {
-      "latency_ms": 69.4,
-      "address": "15.235.75.71",
-      "port": 8388
-    },
-    {
-      "latency_ms": 71.9,
-      "address": "37.19.198.243",
-      "port": 443
-    },
-    {
-      "latency_ms": 72.6,
-      "address": "51.222.107.43",
-      "port": 2083
-    },
-    {
-      "latency_ms": 73.4,
-      "address": "185.156.47.97",
-      "port": 9443
-    },
-    {
-      "latency_ms": 73.7,
-      "address": "15.235.75.71",
-      "port": 8388
-    },
-    {
-      "latency_ms": 73.7,
-      "address": "37.19.198.160",
-      "port": 443
-    },
-    {
-      "latency_ms": 78.1,
-      "address": "51.222.155.32",
-      "port": 5003
-    },
-    {
-      "latency_ms": 85.0,
-      "address": "198.98.53.130",
-      "port": 443
-    },
-    {
-      "latency_ms": 88.9,
-      "address": "108.181.118.10",
-      "port": 8388
-    },
-    {
-      "latency_ms": 91.7,
-      "address": "47.253.226.114",
-      "port": 443
-    },
-    {
-      "latency_ms": 94.4,
-      "address": "104.21.8.63",
-      "port": 443
-    },
-    {
-      "latency_ms": 95.5,
-      "address": "173.244.56.6",
-      "port": 443
-    },
-    {
-      "latency_ms": 95.9,
-      "address": "5.78.51.123",
-      "port": 1080
-    },
-    {
-      "latency_ms": 97.6,
-      "address": "47.253.226.114",
-      "port": 443
-    },
-    {
-      "latency_ms": 100.8,
-      "address": "64.177.90.30",
-      "port": 8388
-    },
-    {
-      "latency_ms": 103.1,
-      "address": "47.253.226.114",
-      "port": 443
-    },
-    {
-      "latency_ms": 104.1,
-      "address": "172.64.150.28",
-      "port": 2082
-    },
-    {
-      "latency_ms": 104.5,
-      "address": "104.21.76.194",
-      "port": 443
-    },
-    {
-      "latency_ms": 104.6,
-      "address": "216.105.168.18",
-      "port": 443
-    },
-    {
-      "latency_ms": 107.8,
+      "latency_ms": 21.8,
       "address": "108.181.0.177",
       "port": 8388
     },
     {
-      "latency_ms": 108.8,
-      "address": "149.22.95.183",
+      "latency_ms": 23.5,
+      "address": "108.181.118.10",
+      "port": 8388
+    },
+    {
+      "latency_ms": 27.0,
+      "address": "173.244.56.6",
       "port": 443
     },
     {
-      "latency_ms": 113.9,
-      "address": "199.232.78.188",
-      "port": 443
-    },
-    {
-      "latency_ms": 120.0,
-      "address": "216.152.152.187",
-      "port": 22324
-    },
-    {
-      "latency_ms": 120.0,
-      "address": "199.232.78.188",
-      "port": 443
-    },
-    {
-      "latency_ms": 122.4,
+      "latency_ms": 28.7,
       "address": "173.244.56.9",
       "port": 443
     },
     {
-      "latency_ms": 124.0,
+      "latency_ms": 33.9,
+      "address": "216.152.152.187",
+      "port": 22324
+    },
+    {
+      "latency_ms": 37.3,
+      "address": "172.64.150.28",
+      "port": 2082
+    },
+    {
+      "latency_ms": 57.4,
+      "address": "156.146.38.167",
+      "port": 443
+    },
+    {
+      "latency_ms": 58.2,
+      "address": "156.146.38.167",
+      "port": 443
+    },
+    {
+      "latency_ms": 58.3,
+      "address": "156.146.38.169",
+      "port": 443
+    },
+    {
+      "latency_ms": 59.2,
+      "address": "156.146.38.169",
+      "port": 443
+    },
+    {
+      "latency_ms": 59.7,
+      "address": "156.146.38.168",
+      "port": 443
+    },
+    {
+      "latency_ms": 64.3,
+      "address": "172.64.150.28",
+      "port": 2082
+    },
+    {
+      "latency_ms": 70.0,
+      "address": "151.101.56.255",
+      "port": 443
+    },
+    {
+      "latency_ms": 70.3,
       "address": "199.232.78.188",
       "port": 443
     },
     {
-      "latency_ms": 125.3,
-      "address": "151.101.56.9",
-      "port": 443
+      "latency_ms": 71.7,
+      "address": "5.78.51.123",
+      "port": 1080
     },
     {
-      "latency_ms": 125.9,
-      "address": "151.101.56.9",
-      "port": 443
-    },
-    {
-      "latency_ms": 128.4,
-      "address": "151.101.56.9",
-      "port": 443
-    },
-    {
-      "latency_ms": 130.6,
-      "address": "199.232.78.188",
-      "port": 443
-    },
-    {
-      "latency_ms": 132.1,
-      "address": "188.114.96.8",
-      "port": 443
-    },
-    {
-      "latency_ms": 134.2,
+      "latency_ms": 82.6,
       "address": "151.101.56.7",
       "port": 443
     },
     {
-      "latency_ms": 134.7,
+      "latency_ms": 87.1,
+      "address": "151.101.56.9",
+      "port": 443
+    },
+    {
+      "latency_ms": 90.3,
+      "address": "64.177.90.30",
+      "port": 8388
+    },
+    {
+      "latency_ms": 92.4,
       "address": "199.232.78.188",
       "port": 443
     },
     {
-      "latency_ms": 135.8,
+      "latency_ms": 94.5,
       "address": "199.232.78.188",
       "port": 443
     },
     {
-      "latency_ms": 136.8,
-      "address": "151.101.56.255",
-      "port": 443
-    },
-    {
-      "latency_ms": 137.5,
-      "address": "151.101.56.255",
-      "port": 443
-    },
-    {
-      "latency_ms": 138.1,
+      "latency_ms": 94.6,
       "address": "151.101.56.9",
       "port": 443
     },
     {
-      "latency_ms": 138.1,
+      "latency_ms": 99.2,
       "address": "151.101.56.9",
       "port": 443
     },
     {
-      "latency_ms": 138.3,
-      "address": "151.101.56.255",
+      "latency_ms": 99.4,
+      "address": "199.232.78.188",
       "port": 443
     },
     {
-      "latency_ms": 140.6,
-      "address": "151.101.56.255",
+      "latency_ms": 99.9,
+      "address": "15.204.97.197",
+      "port": 23576
+    },
+    {
+      "latency_ms": 100.8,
+      "address": "15.204.97.216",
+      "port": 23576
+    },
+    {
+      "latency_ms": 101.1,
+      "address": "15.204.97.219",
+      "port": 23576
+    },
+    {
+      "latency_ms": 101.7,
+      "address": "199.232.78.188",
       "port": 443
     },
     {
-      "latency_ms": 140.8,
-      "address": "151.101.56.255",
-      "port": 443
+      "latency_ms": 102.0,
+      "address": "15.204.97.219",
+      "port": 23576
     },
     {
-      "latency_ms": 142.1,
+      "latency_ms": 102.1,
+      "address": "15.204.97.197",
+      "port": 23576
+    },
+    {
+      "latency_ms": 102.5,
+      "address": "15.204.97.197",
+      "port": 23576
+    },
+    {
+      "latency_ms": 102.9,
+      "address": "15.204.97.197",
+      "port": 23576
+    },
+    {
+      "latency_ms": 104.0,
+      "address": "15.204.97.216",
+      "port": 23576
+    },
+    {
+      "latency_ms": 104.5,
       "address": "151.101.56.9",
       "port": 443
     },
     {
-      "latency_ms": 147.0,
+      "latency_ms": 104.8,
+      "address": "199.232.78.188",
+      "port": 443
+    },
+    {
+      "latency_ms": 105.5,
       "address": "151.101.56.255",
       "port": 443
     },
     {
-      "latency_ms": 148.2,
+      "latency_ms": 106.6,
+      "address": "15.204.97.216",
+      "port": 23576
+    },
+    {
+      "latency_ms": 107.3,
       "address": "151.101.56.7",
       "port": 443
     },
     {
-      "latency_ms": 148.2,
-      "address": "78.111.89.171",
+      "latency_ms": 108.9,
+      "address": "199.232.78.188",
       "port": 443
+    },
+    {
+      "latency_ms": 113.6,
+      "address": "151.101.56.7",
+      "port": 443
+    },
+    {
+      "latency_ms": 115.3,
+      "address": "140.82.63.79",
+      "port": 8388
+    },
+    {
+      "latency_ms": 116.0,
+      "address": "108.181.57.93",
+      "port": 8388
+    },
+    {
+      "latency_ms": 116.9,
+      "address": "151.101.56.255",
+      "port": 443
+    },
+    {
+      "latency_ms": 117.3,
+      "address": "37.19.198.244",
+      "port": 443
+    },
+    {
+      "latency_ms": 117.9,
+      "address": "151.101.56.7",
+      "port": 443
+    },
+    {
+      "latency_ms": 119.6,
+      "address": "199.232.78.188",
+      "port": 443
+    },
+    {
+      "latency_ms": 120.1,
+      "address": "199.232.78.188",
+      "port": 443
+    },
+    {
+      "latency_ms": 120.9,
+      "address": "37.19.198.160",
+      "port": 443
+    },
+    {
+      "latency_ms": 121.7,
+      "address": "185.156.47.97",
+      "port": 9443
+    },
+    {
+      "latency_ms": 123.7,
+      "address": "199.232.78.188",
+      "port": 443
+    },
+    {
+      "latency_ms": 123.9,
+      "address": "151.101.56.9",
+      "port": 443
+    },
+    {
+      "latency_ms": 126.2,
+      "address": "199.232.78.188",
+      "port": 443
+    },
+    {
+      "latency_ms": 127.2,
+      "address": "151.101.56.9",
+      "port": 443
+    },
+    {
+      "latency_ms": 127.4,
+      "address": "15.204.233.41",
+      "port": 8882
+    },
+    {
+      "latency_ms": 127.5,
+      "address": "151.101.56.255",
+      "port": 443
+    },
+    {
+      "latency_ms": 128.2,
+      "address": "38.180.135.156",
+      "port": 8388
+    },
+    {
+      "latency_ms": 133.2,
+      "address": "198.98.53.130",
+      "port": 443
+    },
+    {
+      "latency_ms": 141.7,
+      "address": "151.101.56.7",
+      "port": 443
+    },
+    {
+      "latency_ms": 144.4,
+      "address": "15.235.75.71",
+      "port": 8388
+    },
+    {
+      "latency_ms": 144.5,
+      "address": "15.235.75.71",
+      "port": 8388
     }
   ]
 }
