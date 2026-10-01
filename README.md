@@ -4,7 +4,7 @@ Auto-updating V2Ray subscription built from public free-config lists, plus a liv
 
 ## Subscribe
 
-Base URL: `https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/`
+Sub URL: `https://raw.githubusercontent.com/3000S-HTTP/sNSub/main/output/best59_base64.txt`
 
 - **★ Best 59 (live-tested):** `best59_base64.txt`
 - All nodes: `configs_base64.txt`
