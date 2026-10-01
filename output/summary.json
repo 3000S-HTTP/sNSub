@@ -1,16 +1,16 @@
 {
-  "updated": "2026-09-30 22:21:13 UTC",
-  "total_unique": 48973,
+  "updated": "2026-10-01 06:04:30 UTC",
+  "total_unique": 49280,
   "sources_total": 15,
   "sources_ok": 15,
   "files": {
-    "configs.txt": 48973,
-    "configs_vless_vmess.txt": 37275,
-    "vless.txt": 32222,
-    "vmess.txt": 5053,
-    "trojan.txt": 4671,
-    "ss.txt": 6853,
-    "ssr.txt": 34,
+    "configs.txt": 49280,
+    "configs_vless_vmess.txt": 37571,
+    "vless.txt": 32525,
+    "vmess.txt": 5046,
+    "trojan.txt": 4695,
+    "ss.txt": 6847,
+    "ssr.txt": 27,
     "hysteria2.txt": 140
   }
 }
