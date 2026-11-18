@@ -1,1 +1,1 @@
-hysteria://dongtaiwang.com@5.83.129.143:26691?upmbps=11&downmbps=55&security=tls&insecure=1&alpn=h3#%F0%9F%87%A9%F0%9F%87%AA_DE_%E5%BE%B7%E5%9B%BD-%3E%F0%9F%87%B3%F0%9F%87%B1_NL_%E8%8D%B7%E5%85%B0_IPV4
+hysteria://dongtaiwang.com@137.175.82.44:20022?upmbps=11&downmbps=55&security=tls&insecure=1&alpn=h3#%F0%9F%87%BA%F0%9F%87%B8_US_%E7%BE%8E%E5%9B%BD_IPV4
