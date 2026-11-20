@@ -1,18 +1,17 @@
 {
-  "updated": "2026-11-20 07:25:27 UTC",
-  "total_unique": 26455,
+  "updated": "2026-11-20 20:28:28 UTC",
+  "total_unique": 26379,
   "sources_total": 15,
   "sources_ok": 14,
   "files": {
-    "configs.txt": 26455,
-    "configs_vless_vmess.txt": 24900,
-    "vless.txt": 24206,
-    "vmess.txt": 694,
-    "trojan.txt": 618,
-    "ss.txt": 854,
-    "ssr.txt": 3,
+    "configs.txt": 26379,
+    "configs_vless_vmess.txt": 24828,
+    "vless.txt": 24107,
+    "vmess.txt": 721,
+    "trojan.txt": 590,
+    "ss.txt": 878,
+    "ssr.txt": 1,
     "hysteria.txt": 1,
-    "hysteria2.txt": 78,
-    "tuic.txt": 1
+    "hysteria2.txt": 81
   }
 }
