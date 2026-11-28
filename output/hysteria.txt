@@ -1,4 +1,5 @@
-hysteria://dongtaiwang.com@137.175.82.41:20022?upmbps=11&downmbps=55&security=tls&sni=bing.com&insecure=1&alpn=h3#%F0%9F%87%BA%F0%9F%87%B8_US_%E7%BE%8E%E5%9B%BD_IPV4
-hysteria://dongtaiwang.com@38.6.222.132:11008?upmbps=11&downmbps=55&security=tls&sni=bing.com&insecure=1&alpn=h3#%F0%9F%87%BA%F0%9F%87%B8_US_%E7%BE%8E%E5%9B%BD_IPV4%20(2)
-hysteria://dongtaiwang.com@38.6.222.131:11008?upmbps=11&downmbps=55&security=tls&sni=bing.com&insecure=1&alpn=h3#%F0%9F%87%BA%F0%9F%87%B8_US_%E7%BE%8E%E5%9B%BD_IPV4%20(3)
+hysteria://dongtaiwang.com@137.175.82.42:20022?upmbps=20&downmbps=20&security=tls&sni=bing.com&insecure=1&alpn=h3#%F0%9F%87%BA%F0%9F%87%B8_US_%E7%BE%8E%E5%9B%BD_IPV4
+hysteria://dongtaiwang.com@137.175.82.41:20022?upmbps=11&downmbps=55&security=tls&sni=bing.com&insecure=1&alpn=h3#%F0%9F%87%BA%F0%9F%87%B8_US_%E7%BE%8E%E5%9B%BD_IPV4%20(4)
+hysteria://dongtaiwang.com@38.6.222.132:11008?upmbps=11&downmbps=55&security=tls&sni=bing.com&insecure=1&alpn=h3#%F0%9F%87%BA%F0%9F%87%B8_US_%E7%BE%8E%E5%9B%BD_IPV4%20(5)
+hysteria://dongtaiwang.com@38.6.222.131:11008?upmbps=11&downmbps=55&security=tls&sni=bing.com&insecure=1&alpn=h3#%F0%9F%87%BA%F0%9F%87%B8_US_%E7%BE%8E%E5%9B%BD_IPV4%20(6)
 hysteria://dongtaiwang.com@62.210.124.132:24667?upmbps=11&downmbps=55&security=tls&sni=bing.com&insecure=1&alpn=h3#%F0%9F%87%AB%F0%9F%87%B7_FR_%E6%B3%95%E5%9B%BD_IPV4
